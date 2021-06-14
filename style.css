@@ -20,6 +20,9 @@ body {
 header {
   text-align: center;
   margin-bottom: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title-container {
@@ -78,18 +81,43 @@ section.text {
   justify-content: flex-end;
 }
 
-.icon {
-  position: relative;
-  right: 0;
-}
-
 .attribution {
   font-size: 11px;
   text-align: center;
-  color: hsl(229, 6%, 66%)
+  color: hsl(229, 6%, 66%);
 }
 .attribution a {
   text-decoration: none;
   font-weight: 600;
   color: hsl(234, 12%, 34%);
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    margin: 4em 5em;
+  }
+  main {
+    display: grid;
+    place-items: center;
+  }
+  .header-text {
+    max-width: 45%;
+  }
+  .card-container {
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+  }
+
+  .responsive-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 80%;
+  }
 }
