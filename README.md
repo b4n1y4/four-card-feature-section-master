@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/four-card-layout-using-html-css-grid-flexbox-media-queries-F0LUhYJHN)
 - Live Site URL: [Add live site URL here](https://b4n1y4.github.io/four-card-feature-section-master/)
 
 ## My process
